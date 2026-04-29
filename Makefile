@@ -1,3 +1,6 @@
 CFLAGS = -Wall -Wextra
-tmst: main.c
-	cc ${CFLAGS} main.c -o tmst
+turna: main.c
+	cc ${CFLAGS} main.c -o turna
+
+turna-db: main.c
+	cc -g main.c -o turna-db
